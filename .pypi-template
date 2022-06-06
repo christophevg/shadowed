@@ -1,0 +1,35 @@
+a_description_for_the_package: Manage file changes with shadowed copies.
+classifiers:
+- 'Development Status :: 4 - Beta'
+- 'Intended Audience :: Developers'
+- 'Programming Language :: Python :: 3'
+console_scripts: []
+first_year_of_publication: '2022'
+github_account: christophevg
+github_repo_name: shadowed
+keywords_describing_the_package: shadow copies changes
+license: MIT
+package_module_name: shadowed
+package_name: shadowed
+package_tagline: Manage file changes with shadowed copies.
+package_title: Shadowed
+requires:
+- fs
+- diff_match_patch
+scripts: []
+skip:
+- docs
+- .github/README.md
+- .travis.yml
+- tox.ini
+- docs/_static/.gitignore
+- setup.py
+- (package_module_name)
+- tests/test_example.py
+- requirements.txt
+- Makefile
+- .gitignore
+your_author_name: Christophe VG
+your_email_address: contact@christophe.vg
+your_full_name: Christophe VG
+your_name: Christophe VG
